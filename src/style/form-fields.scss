@@ -1,0 +1,38 @@
+.form-input{
+    display: grid;
+    gap: 6.5px;
+
+    & > * {
+        padding-left: 20px;
+    }
+    &__label {
+        color: #333;
+        font-size: 18px;
+    }
+
+    &__input{
+        box-sizing: border-box;
+        height: 39px;
+        width: 420px;
+        
+    }
+
+}
+
+.form-button {
+    &__button {
+        height: 38px;
+        width: 243px;
+        border-radius: 20px;
+        background-color: #00CB79;
+
+        font-size: 16px;
+        color: white;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+
