@@ -1,12 +1,13 @@
+
 import React, { Component } from 'react';
 
 class AccountInformation extends Component {
-    render () {
-        return {
+    render() {
+        return (
             <div>
                 account info
             </div>
-        }
+        )
     }
 }
 
