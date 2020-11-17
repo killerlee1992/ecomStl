@@ -1,6 +1,14 @@
-import {
-    SET_USER_PURCHASES
+import { 
+    SET_USER_PURCHASES,
+    SET_PURCHASE_DETAIL
 } from './types';
+
+export function setPurchaseDetail(_id) {
+    return ({
+        type: SET_PURCHASE_DETAIL,
+        payload: _id
+    })
+}
 
 export function fetchUserPurchases() {
     return ({
@@ -14,7 +22,7 @@ export function fetchUserPurchases() {
                 creditCard: '-0000',
                 user:{
                     name: 'jordan Hudgens',
-                    spippingAdress:'1234 West State Street'
+                    sshippingAddress:'1234 West State Street'
                 }
             },
             {
@@ -25,7 +33,7 @@ export function fetchUserPurchases() {
                 creditCard: '-0000',
                 user:{
                     name: 'Kristal lee',
-                    spippingAdress:'6454 West State Street'
+                    sshippingAddress:'6454 West State Street'
                 }
             },
             {
@@ -36,7 +44,7 @@ export function fetchUserPurchases() {
                 creditCard: '-0000',
                 user:{
                     name: 'Brittany lee',
-                    spippingAdress:'5464 West State Street'
+                    sshippingAddress:'5464 West State Street'
                 }
             },
             {
@@ -47,7 +55,7 @@ export function fetchUserPurchases() {
                 creditCard: '-0000',
                 user:{
                     name: 'Cassidy Bennett',
-                    spippingAdress:'1235r34 South State Street'
+                    sshippingAddress:'1235r34 South State Street'
                 }
             },
             {
@@ -58,7 +66,7 @@ export function fetchUserPurchases() {
                 creditCard: '-0000',
                 user:{
                     name: 'Jeffry domer',
-                    spippingAdress:'4563 east State Street'
+                    sshippingAddress:'4563 east State Street'
                 }
             },
             {
@@ -69,7 +77,7 @@ export function fetchUserPurchases() {
                 creditCard: '-0000',
                 user:{
                     name: 'Carol Baskin',
-                    spippingAdress:'1434 north State Street'
+                    sshippingAddress:'1434 north State Street'
                 }
             },
            
