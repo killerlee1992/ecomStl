@@ -16,7 +16,7 @@ export function fetchUserPurchases() {
         payload: [
             {
                 _id:1,
-                amount: 10.72,
+                total: 10.72,
                 orderNumber: 'A00483438343',
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
@@ -27,7 +27,7 @@ export function fetchUserPurchases() {
             },
             {
                 _id:2,
-                amount: 32.72,
+                total: 32.72,
                 orderNumber: 'A0043453343',
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
@@ -38,7 +38,7 @@ export function fetchUserPurchases() {
             },
             {
                 _id:3,
-                amount: 45.45,
+                total: 45.45,
                 orderNumber: 'A004826546343',
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
@@ -49,7 +49,7 @@ export function fetchUserPurchases() {
             },
             {
                 _id:4,
-                amount: 23.43,
+                total: 23.43,
                 orderNumber: 'A00482456563',
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
@@ -60,7 +60,7 @@ export function fetchUserPurchases() {
             },
             {
                 _id:5,
-                amount: 433.54,
+                total: 433.54,
                 orderNumber: 'A0048248565656',
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
@@ -71,7 +71,7 @@ export function fetchUserPurchases() {
             },
             {
                 _id:6,
-                amount: 144.32,
+                total: 144.32,
                 orderNumber: 'A0048248343',
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
