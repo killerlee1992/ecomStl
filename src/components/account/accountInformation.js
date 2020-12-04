@@ -1,8 +1,7 @@
-
 import React, { Component } from 'react';
 
 import PageTitle from '../pageTitle';
-import AccountInformationForm from './accounInformationtForm'
+import AccountInformationForm from './accountInformationForm';
 
 class AccountInformation extends Component {
 
@@ -12,7 +11,7 @@ class AccountInformation extends Component {
 
     render() {
         return (
-            <div className='account_information'>
+            <div className='account-information'>
                 <PageTitle className='account-information' title='Account Information'/>
                 <AccountInformationForm onSubmit={this.onSubmit} className='account-information__form' />
             </div>

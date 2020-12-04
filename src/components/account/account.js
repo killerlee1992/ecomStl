@@ -9,6 +9,7 @@ import PurchaseHistory from './purchaseHistory';
 class Account extends Component {
 
     componentDidMount() {
+
         const headerLinks = [
             {
                 _id: 0,
@@ -17,7 +18,7 @@ class Account extends Component {
             },
             {
                 _id: 1,
-                title: 'LogIn',
+                title: 'Logout',
                 path: '/'
             }
         ]

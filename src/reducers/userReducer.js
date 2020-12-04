@@ -1,4 +1,3 @@
-  
 import {
     SET_USER_PURCHASES,
     SET_PURCHASE_DETAIL
