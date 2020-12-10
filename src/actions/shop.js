@@ -6,16 +6,14 @@ import {
     FILTER_PRODUCTS_WITH_QUERY
 } from './types';
 
-export function filteredProductsWithQuery(fields){
-    return({
+export function filterProductsWithQuery(fields) {
+    return ({
         type: FILTER_PRODUCTS_WITH_QUERY,
         payload: fields
     })
 }
 
 export function filterProductsWithCategoryId(_id) {
-    console.log('jello'
-    );
     return ({
         type: FILTER_PRODUCTS_WITH_CATEGORY_ID,
         payload: _id

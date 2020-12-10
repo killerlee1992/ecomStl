@@ -1,4 +1,3 @@
-
 import {
     SET_SHOP_CATEGORIES,
     SET_SHOP_PRODUCTS,
